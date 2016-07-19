@@ -21,7 +21,7 @@ bool GraphicsLayer00::init()
     
     Size winSize = Director::getInstance()->getWinSize();
     Button* pButton = g_createButton(this, "draw point", Vec2(30.0f, winSize.height - 50.0f), CC_CALLBACK_1(GraphicsLayer00::btnTestCallback, this));
-    pButton->setAnchorPoint(Vec2::ANCHOR_MIDDLE_LEFT);hui'zhi'dian
+    pButton->setAnchorPoint(Vec2::ANCHOR_MIDDLE_LEFT);
     
     GRAPHICS->setPixelColor(Color4F::RED);
     
