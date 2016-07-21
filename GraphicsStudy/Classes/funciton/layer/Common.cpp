@@ -8,17 +8,6 @@
 
 #include "Common.h"
 
-DrawNode* g_createCanvas(Node* pParentNode)
-{
-    DrawNode* pDrawNode = nullptr;
-    if (pParentNode)
-    {
-        pDrawNode = DrawNode::create();
-        pParentNode->addChild(pDrawNode, TEST_DRAW_NODE_TAG);
-    }
-    return pDrawNode;
-}
-
 Button* g_createButton(Node* pParentNode, const string& strTitle, const Vec2& position, const Widget::ccWidgetClickCallback &callback)
 {
     Button* pBtn = Button::create();

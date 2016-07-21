@@ -16,8 +16,7 @@ bool GraphicsLayer00::init()
         return false;
     }
     
-    m_pCanvas = g_createCanvas(this);
-    GRAPHICS->setCanvas(m_pCanvas);
+    GRAPHICS->inistallCanvas(this);
     
     Size winSize = Director::getInstance()->getWinSize();
     Button* pButton = g_createButton(this, "draw point", Vec2(30.0f, winSize.height - 50.0f), CC_CALLBACK_1(GraphicsLayer00::btnTestCallback, this));

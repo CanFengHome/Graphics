@@ -18,10 +18,7 @@ USING_NS_CC;
 using namespace ui;
 
 #include "Graphics.h"
-#define GRAPHICS Graphics::getInstance()
-
-const int TEST_DRAW_NODE_TAG = 1001;
-DrawNode* g_createCanvas(Node* pParentNode);
+#include "DrawLine.h"
 
 Button* g_createButton(Node* pParentNode, const string& strTitle, const Vec2& position, const Widget::ccWidgetClickCallback &callback);
 

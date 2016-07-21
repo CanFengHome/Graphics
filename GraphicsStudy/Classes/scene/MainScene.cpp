@@ -25,6 +25,8 @@ void LayerMainDataList::initFunNames()
 {
     m_arrFunName.clear();
     m_arrFunName.push_back("00 绘制随机点");
+    m_arrFunName.push_back("01 DDA画线");
+    
 }
 
 void LayerMainDataList::clickFunIndex(ssize_t selIndex)
@@ -36,6 +38,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
     {
         case 0:
             pLyrTest = GraphicsLayer00::create();
+            break;
+        case 1:
+            pLyrTest = GraphicsLayer01::create();
             break;
         default:
             pLyrTest = nullptr;

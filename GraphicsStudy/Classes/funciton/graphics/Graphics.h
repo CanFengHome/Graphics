@@ -14,6 +14,8 @@ USING_NS_CC;
 
 #include "SingletonTemplate.h"
 
+#define GRAPHICS Graphics::getInstance()
+
 class Graphics : public SingletonTemplate<Graphics>
 {
 private:
@@ -21,12 +23,13 @@ private:
     virtual ~Graphics(){};
     friend class SingletonTemplate<Graphics>;
 public:
-    void setCanvas(DrawNode* pCanvas);
+    DrawNode* inistallCanvas(Node* pParentNode);
+    
     void clearAllGraphics();
+    void setPixel(int x, int y);
     void setPixel(const Vec2& position);
 private:
     void resetState();
-    
 private:
     DrawNode* m_pCanvas = nullptr;
     CC_SYNTHESIZE(Color4F, m_pixelColor, PixelColor);

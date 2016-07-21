@@ -48,6 +48,8 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		9055E1AC1D40BFF30027DBD8 /* GraphicsLayer01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */; };
+		9055E1B01D40C1B90027DBD8 /* DrawLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9055E1AE1D40C1B90027DBD8 /* DrawLine.cpp */; };
 		90BFE96F1D3E19B90060E47A /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFE96A1D3E19AB0060E47A /* libcocos2d Mac.a */; };
 		90BFE9711D3E1A6B0060E47A /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFE96C1D3E19AB0060E47A /* libcocos2d iOS.a */; };
 		90BFE9891D3E23950060E47A /* GraphicsLayer00.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90BFE9871D3E23950060E47A /* GraphicsLayer00.cpp */; };
@@ -135,6 +137,10 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer01.cpp; sourceTree = "<group>"; };
+		9055E1AD1D40C0000027DBD8 /* GraphicsLayer01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer01.h; sourceTree = "<group>"; };
+		9055E1AE1D40C1B90027DBD8 /* DrawLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawLine.cpp; sourceTree = "<group>"; };
+		9055E1AF1D40C1B90027DBD8 /* DrawLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawLine.h; sourceTree = "<group>"; };
 		90BFE9631D3E19AA0060E47A /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../../../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		90BFE9861D3E237D0060E47A /* GraphicsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphicsHeader.h; sourceTree = "<group>"; };
 		90BFE9871D3E23950060E47A /* GraphicsLayer00.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer00.cpp; sourceTree = "<group>"; };
@@ -360,6 +366,8 @@
 				90BFE9901D3E2C600060E47A /* SingletonTemplate.h */,
 				90BFE98D1D3E2AC20060E47A /* Graphics.cpp */,
 				90BFE98E1D3E2AC20060E47A /* Graphics.h */,
+				9055E1AE1D40C1B90027DBD8 /* DrawLine.cpp */,
+				9055E1AF1D40C1B90027DBD8 /* DrawLine.h */,
 			);
 			path = graphics;
 			sourceTree = "<group>";
@@ -371,6 +379,8 @@
 				90BFE98A1D3E23D80060E47A /* Common.h */,
 				90BFE9871D3E23950060E47A /* GraphicsLayer00.cpp */,
 				90BFE9881D3E23950060E47A /* GraphicsLayer00.h */,
+				9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */,
+				9055E1AD1D40C0000027DBD8 /* GraphicsLayer01.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -533,6 +543,8 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				90D3DF391D3E14EA00A8A4B6 /* MainScene.cpp in Sources */,
+				9055E1AC1D40BFF30027DBD8 /* GraphicsLayer01.cpp in Sources */,
+				9055E1B01D40C1B90027DBD8 /* DrawLine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

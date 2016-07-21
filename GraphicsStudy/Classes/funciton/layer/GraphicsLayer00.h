@@ -19,9 +19,6 @@ public:
     virtual bool init() override;
 private:
     void btnTestCallback(cocos2d::Ref* pSender);
-    
-private:
-    DrawNode* m_pCanvas = nullptr;
 };
 
 #endif /* GraphicsLayer00_h */

@@ -11,14 +11,15 @@
 
 #include "Common.h"
 
-// 01 
-class GraphicsLayer01 : public Layer
+// 01 DDA画线
+class GraphicsLayer01 : public LayerColor
 {
 public:
     CREATE_FUNC(GraphicsLayer01);
     virtual bool init() override;
 private:
-    void btnTestCallback(cocos2d::Ref* pSender);
+    void btnTestCallbackRandom(cocos2d::Ref* pSender);
+    void btnTestCallbackFix(cocos2d::Ref* pSender);
 };
 
 #endif /* GraphicsLayer01_h */
