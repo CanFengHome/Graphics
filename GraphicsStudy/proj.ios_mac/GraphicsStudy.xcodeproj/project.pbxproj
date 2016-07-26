@@ -48,6 +48,7 @@
 		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		9012AD7A1D46F1AD00BD54A4 /* GraphicsLayer02.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9012AD781D46F1AD00BD54A4 /* GraphicsLayer02.cpp */; };
 		9055E1AC1D40BFF30027DBD8 /* GraphicsLayer01.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */; };
 		9055E1B01D40C1B90027DBD8 /* DrawLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9055E1AE1D40C1B90027DBD8 /* DrawLine.cpp */; };
 		90BFE96F1D3E19B90060E47A /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BFE96A1D3E19AB0060E47A /* libcocos2d Mac.a */; };
@@ -137,6 +138,8 @@
 		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9012AD781D46F1AD00BD54A4 /* GraphicsLayer02.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer02.cpp; sourceTree = "<group>"; };
+		9012AD791D46F1AD00BD54A4 /* GraphicsLayer02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer02.h; sourceTree = "<group>"; };
 		9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer01.cpp; sourceTree = "<group>"; };
 		9055E1AD1D40C0000027DBD8 /* GraphicsLayer01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer01.h; sourceTree = "<group>"; };
 		9055E1AE1D40C1B90027DBD8 /* DrawLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawLine.cpp; sourceTree = "<group>"; };
@@ -381,6 +384,8 @@
 				90BFE9881D3E23950060E47A /* GraphicsLayer00.h */,
 				9055E1AB1D40BFF30027DBD8 /* GraphicsLayer01.cpp */,
 				9055E1AD1D40C0000027DBD8 /* GraphicsLayer01.h */,
+				9012AD781D46F1AD00BD54A4 /* GraphicsLayer02.cpp */,
+				9012AD791D46F1AD00BD54A4 /* GraphicsLayer02.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -542,6 +547,7 @@
 				90BFE98C1D3E249B0060E47A /* Common.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				9012AD7A1D46F1AD00BD54A4 /* GraphicsLayer02.cpp in Sources */,
 				90D3DF391D3E14EA00A8A4B6 /* MainScene.cpp in Sources */,
 				9055E1AC1D40BFF30027DBD8 /* GraphicsLayer01.cpp in Sources */,
 				9055E1B01D40C1B90027DBD8 /* DrawLine.cpp in Sources */,

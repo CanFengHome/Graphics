@@ -14,5 +14,7 @@ void g_drawLineVertical(int x1, int y1, int x2, int y2);
 // DDA 数字微分分析器
 void g_drawLineDDA(int x1, int y1, int x2, int y2);
 
+// 中点Bresenham算法
+void g_drawLineBresenham(int x1, int y1, int x2, int y2);
 
 #endif /* DrawLine_h */

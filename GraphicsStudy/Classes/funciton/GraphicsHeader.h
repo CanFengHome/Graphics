@@ -13,8 +13,8 @@
 #include "GraphicsLayer00.h"
 // 01 DDA画线
 #include "GraphicsLayer01.h"
-
-
+// 中点Bresenham算法
+#include "GraphicsLayer02.h"
 
 
 

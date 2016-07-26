@@ -61,7 +61,43 @@ void g_drawLineDDA(int x1, int y1, int x2, int y2)
     }
 }
 
-
+void g_drawLineBresenham(int x1, int y1, int x2, int y2)
+{
+    if (x1 == x2)
+    {
+        g_drawLineVertical(x1, y1, x2, y2);
+        return;
+    }
+    
+    float x = x1;
+    float y = y1;
+    float xEnd = x2;
+    float k = (float)(y2-y1) / (float)(x2-x1);
+    if (x1 > x2)
+    {
+        x = x2;
+        y = y2;
+        xEnd = x1;
+        k = (float)(y1-y2) / (float)(x1-x2);
+    }
+    
+    float d = 0.5f-k;
+    for (; x<=xEnd; ++x)
+    {
+        GRAPHICS->setPixel(floor(x+0.5f), floor(y+0.5f));
+        if (d<0)
+        {
+            ++y;
+            d = d+1-k;
+        }
+        else
+        {
+            d = d-k;
+        }
+    }
+    
+    
+}
 
 
 

@@ -26,6 +26,7 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.clear();
     m_arrFunName.push_back("00 绘制随机点");
     m_arrFunName.push_back("01 DDA画线");
+    m_arrFunName.push_back("02 中点Bresenham算法");
     
 }
 
@@ -41,6 +42,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 1:
             pLyrTest = GraphicsLayer01::create();
+            break;
+        case 2:
+            pLyrTest = GraphicsLayer02::create();
             break;
         default:
             pLyrTest = nullptr;
