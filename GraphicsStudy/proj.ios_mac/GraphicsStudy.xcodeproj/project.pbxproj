@@ -60,6 +60,7 @@
 		90D2E6F51D4848B700155266 /* GraphicsLayer03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F31D4848B700155266 /* GraphicsLayer03.cpp */; };
 		90D2E6F81D484BF200155266 /* DrawEllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F61D484BF200155266 /* DrawEllipse.cpp */; };
 		90D2E6FB1D484DF200155266 /* GraphicsLayer04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */; };
+		90D2E7021D4879E500155266 /* GraphicsLayer05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E7001D4879E500155266 /* GraphicsLayer05.cpp */; };
 		90D3DF381D3E14EA00A8A4B6 /* BaseDataListLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D3DF341D3E14EA00A8A4B6 /* BaseDataListLayer.cpp */; };
 		90D3DF391D3E14EA00A8A4B6 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D3DF361D3E14EA00A8A4B6 /* MainScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -165,6 +166,8 @@
 		90D2E6F71D484BF200155266 /* DrawEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawEllipse.h; sourceTree = "<group>"; };
 		90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer04.cpp; sourceTree = "<group>"; };
 		90D2E6FA1D484DF200155266 /* GraphicsLayer04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer04.h; sourceTree = "<group>"; };
+		90D2E7001D4879E500155266 /* GraphicsLayer05.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer05.cpp; sourceTree = "<group>"; };
+		90D2E7011D4879E500155266 /* GraphicsLayer05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer05.h; sourceTree = "<group>"; };
 		90D3DF341D3E14EA00A8A4B6 /* BaseDataListLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseDataListLayer.cpp; sourceTree = "<group>"; };
 		90D3DF351D3E14EA00A8A4B6 /* BaseDataListLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataListLayer.h; sourceTree = "<group>"; };
 		90D3DF361D3E14EA00A8A4B6 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
@@ -406,6 +409,8 @@
 				90D2E6F41D4848B700155266 /* GraphicsLayer03.h */,
 				90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */,
 				90D2E6FA1D484DF200155266 /* GraphicsLayer04.h */,
+				90D2E7001D4879E500155266 /* GraphicsLayer05.cpp */,
+				90D2E7011D4879E500155266 /* GraphicsLayer05.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -560,6 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90BFE9891D3E23950060E47A /* GraphicsLayer00.cpp in Sources */,
+				90D2E7021D4879E500155266 /* GraphicsLayer05.cpp in Sources */,
 				90BFE98F1D3E2AC20060E47A /* Graphics.cpp in Sources */,
 				90D3DF381D3E14EA00A8A4B6 /* BaseDataListLayer.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,

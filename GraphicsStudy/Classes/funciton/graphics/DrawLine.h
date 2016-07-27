@@ -17,4 +17,7 @@ void g_drawLineDDA(int x1, int y1, int x2, int y2);
 // 中点Bresenham算法
 void g_drawLineBresenham(int x1, int y1, int x2, int y2);
 
+// 距离加权反走样直线
+void g_drawLineAnti(int x1, int y1, int x2, int y2);
+
 #endif /* DrawLine_h */

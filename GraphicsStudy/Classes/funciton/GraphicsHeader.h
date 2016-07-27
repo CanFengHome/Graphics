@@ -19,5 +19,27 @@
 #include "GraphicsLayer03.h"
 // 椭圆中点Bresenham算法
 #include "GraphicsLayer04.h"
+// 距离加权反走样直线
+#include "GraphicsLayer05.h"
+
+
+
+
+
+
 
 #endif /* GraphicsHeader_h */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
