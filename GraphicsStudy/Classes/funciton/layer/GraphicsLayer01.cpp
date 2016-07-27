@@ -19,9 +19,9 @@ bool GraphicsLayer01::init()
     GRAPHICS->inistallCanvas(this);
     
     Size winSize = Director::getInstance()->getWinSize();
-    g_createButton(this, "draw Line DDA fix", Vec2(winSize.width*0.5f, winSize.height - 50.0f), CC_CALLBACK_1(GraphicsLayer01::btnTestCallbackFix, this));
+    g_createButton(this, "draw Line DDA fix", Vec2(winSize.width*0.5f, winSize.height - 20.0f), CC_CALLBACK_1(GraphicsLayer01::btnTestCallbackFix, this));
     
-    g_createButton(this, "draw Line DDA random", Vec2(winSize.width*0.5f, winSize.height - 150.0f), CC_CALLBACK_1(GraphicsLayer01::btnTestCallbackRandom, this));
+    g_createButton(this, "draw Line DDA random", Vec2(winSize.width*0.5f, winSize.height - 50.0f), CC_CALLBACK_1(GraphicsLayer01::btnTestCallbackRandom, this));
     
     GRAPHICS->setPixelColor(Color4F::RED);
     

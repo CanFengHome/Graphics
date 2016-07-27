@@ -16,6 +16,8 @@ USING_NS_CC;
 
 #define GRAPHICS Graphics::getInstance()
 
+#define   ROUND(a) int(a+0.5) //四舍五入
+
 class Graphics : public SingletonTemplate<Graphics>
 {
 private:
