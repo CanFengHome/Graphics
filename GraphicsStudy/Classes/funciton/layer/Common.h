@@ -20,6 +20,8 @@ using namespace ui;
 #include "Graphics.h"
 #include "DrawLine.h"
 #include "DrawCircle.h"
+#include "DrawEllipse.h"
+
 
 Button* g_createButton(Node* pParentNode, const string& strTitle, const Vec2& position, const Widget::ccWidgetClickCallback &callback);
 

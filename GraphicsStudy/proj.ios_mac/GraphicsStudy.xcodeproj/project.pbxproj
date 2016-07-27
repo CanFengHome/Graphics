@@ -58,6 +58,8 @@
 		90BFE98F1D3E2AC20060E47A /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90BFE98D1D3E2AC20060E47A /* Graphics.cpp */; };
 		90D2E6F21D48442100155266 /* DrawCircle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F01D48442100155266 /* DrawCircle.cpp */; };
 		90D2E6F51D4848B700155266 /* GraphicsLayer03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F31D4848B700155266 /* GraphicsLayer03.cpp */; };
+		90D2E6F81D484BF200155266 /* DrawEllipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F61D484BF200155266 /* DrawEllipse.cpp */; };
+		90D2E6FB1D484DF200155266 /* GraphicsLayer04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */; };
 		90D3DF381D3E14EA00A8A4B6 /* BaseDataListLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D3DF341D3E14EA00A8A4B6 /* BaseDataListLayer.cpp */; };
 		90D3DF391D3E14EA00A8A4B6 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90D3DF361D3E14EA00A8A4B6 /* MainScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -159,6 +161,10 @@
 		90D2E6F11D48442100155266 /* DrawCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawCircle.h; sourceTree = "<group>"; };
 		90D2E6F31D4848B700155266 /* GraphicsLayer03.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer03.cpp; sourceTree = "<group>"; };
 		90D2E6F41D4848B700155266 /* GraphicsLayer03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer03.h; sourceTree = "<group>"; };
+		90D2E6F61D484BF200155266 /* DrawEllipse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrawEllipse.cpp; sourceTree = "<group>"; };
+		90D2E6F71D484BF200155266 /* DrawEllipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawEllipse.h; sourceTree = "<group>"; };
+		90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsLayer04.cpp; sourceTree = "<group>"; };
+		90D2E6FA1D484DF200155266 /* GraphicsLayer04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsLayer04.h; sourceTree = "<group>"; };
 		90D3DF341D3E14EA00A8A4B6 /* BaseDataListLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseDataListLayer.cpp; sourceTree = "<group>"; };
 		90D3DF351D3E14EA00A8A4B6 /* BaseDataListLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDataListLayer.h; sourceTree = "<group>"; };
 		90D3DF361D3E14EA00A8A4B6 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScene.cpp; sourceTree = "<group>"; };
@@ -379,6 +385,8 @@
 				9055E1AF1D40C1B90027DBD8 /* DrawLine.h */,
 				90D2E6F01D48442100155266 /* DrawCircle.cpp */,
 				90D2E6F11D48442100155266 /* DrawCircle.h */,
+				90D2E6F61D484BF200155266 /* DrawEllipse.cpp */,
+				90D2E6F71D484BF200155266 /* DrawEllipse.h */,
 			);
 			path = graphics;
 			sourceTree = "<group>";
@@ -396,6 +404,8 @@
 				9012AD791D46F1AD00BD54A4 /* GraphicsLayer02.h */,
 				90D2E6F31D4848B700155266 /* GraphicsLayer03.cpp */,
 				90D2E6F41D4848B700155266 /* GraphicsLayer03.h */,
+				90D2E6F91D484DF200155266 /* GraphicsLayer04.cpp */,
+				90D2E6FA1D484DF200155266 /* GraphicsLayer04.h */,
 			);
 			path = layer;
 			sourceTree = "<group>";
@@ -555,6 +565,8 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				90D2E6F51D4848B700155266 /* GraphicsLayer03.cpp in Sources */,
+				90D2E6FB1D484DF200155266 /* GraphicsLayer04.cpp in Sources */,
+				90D2E6F81D484BF200155266 /* DrawEllipse.cpp in Sources */,
 				90BFE98C1D3E249B0060E47A /* Common.cpp in Sources */,
 				90D2E6F21D48442100155266 /* DrawCircle.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,

@@ -17,6 +17,7 @@
 #include "GraphicsLayer02.h"
 // 圆中点Bresenham算法
 #include "GraphicsLayer03.h"
-
+// 椭圆中点Bresenham算法
+#include "GraphicsLayer04.h"
 
 #endif /* GraphicsHeader_h */
