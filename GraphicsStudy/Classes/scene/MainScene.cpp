@@ -31,6 +31,7 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("04 椭圆中点Bresenham算法");
     m_arrFunName.push_back("05 距离加权反走样直线");
     m_arrFunName.push_back("06 多边形有效边表填充算法");
+    m_arrFunName.push_back("07 二维基本几何变换算法");
     
 }
 
@@ -61,6 +62,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 6:
             pLyrTest = GraphicsLayer06::create();
+            break;
+        case 7:
+            pLyrTest = GraphicsLayer07::create();
             break;
         default:
             pLyrTest = nullptr;

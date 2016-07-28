@@ -9,31 +9,7 @@
 #ifndef EdgeTable_h
 #define EdgeTable_h
 
-struct CPoint
-{
-    CPoint()
-    :x(0), y(0)
-    {
-        
-    }
-    
-    CPoint(int ix, int iy)
-    :x(ix), y(iy)
-    {
-        
-    }
-    
-    int x;
-    int y;
-};
-
-//struct Edge
-//{
-//    float m_fX;
-//    int m_iYMax;
-//    float m_fK;
-//    Edge* m_pNext;
-//};
+#include "CPoint.h"
 
 struct AET
 {

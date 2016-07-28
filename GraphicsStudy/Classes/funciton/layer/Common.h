@@ -22,6 +22,7 @@ using namespace ui;
 #include "DrawCircle.h"
 #include "DrawEllipse.h"
 #include "EdgeTable.h"
+#include "CMatrix3.h"
 
 
 Button* g_createButton(Node* pParentNode, const string& strTitle, const Vec2& position, const Widget::ccWidgetClickCallback &callback);

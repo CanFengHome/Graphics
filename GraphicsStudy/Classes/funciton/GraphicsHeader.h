@@ -23,8 +23,8 @@
 #include "GraphicsLayer05.h"
 // 多边形有效边表填充算法
 #include "GraphicsLayer06.h"
-
-
+// 07 二维基本几何变换算法
+#include "GraphicsLayer07.h"
 
 
 #endif /* GraphicsHeader_h */
