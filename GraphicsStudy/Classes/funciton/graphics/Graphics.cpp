@@ -18,7 +18,7 @@ void Graphics::resetState()
     m_pCanvas = nullptr;
     m_pixelColor = Color4F::RED;
     m_bgColor = Color4F::GRAY;
-    m_fillColor = Color4F::BLUE;
+    m_lineColor = Color4F::BLUE;
 }
 
 void Graphics::clearAllGraphics()
@@ -53,6 +53,29 @@ DrawNode* Graphics::inistallCanvas(Node* pParentNode)
     }
     return m_pCanvas;
 }
+
+void Graphics::drawPolygon(Vec2 arrPoints[], int arrLen)
+{
+    m_pCanvas->drawPoly(arrPoints, arrLen, true, m_lineColor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

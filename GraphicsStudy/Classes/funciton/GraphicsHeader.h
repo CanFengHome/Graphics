@@ -21,9 +21,8 @@
 #include "GraphicsLayer04.h"
 // 距离加权反走样直线
 #include "GraphicsLayer05.h"
-
-
-
+// 多边形有效边表填充算法
+#include "GraphicsLayer06.h"
 
 
 

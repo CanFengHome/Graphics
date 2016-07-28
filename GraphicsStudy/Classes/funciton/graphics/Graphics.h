@@ -30,13 +30,15 @@ public:
     void clearAllGraphics();
     void setPixel(int x, int y);
     void setPixel(const Vec2& position);
+    
+    void drawPolygon(Vec2 arrPoints[], int arrLen);
 private:
     void resetState();
 private:
     DrawNode* m_pCanvas = nullptr;
     CC_SYNTHESIZE(Color4F, m_pixelColor, PixelColor);
     CC_SYNTHESIZE(Color4F, m_bgColor, BgColor)
-    CC_SYNTHESIZE(Color4F, m_fillColor, FillColor);
+    CC_SYNTHESIZE(Color4F, m_lineColor, LineColor);
 };
 
 #endif /* Graphics_h */

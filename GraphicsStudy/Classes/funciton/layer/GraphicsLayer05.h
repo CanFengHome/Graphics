@@ -21,4 +21,5 @@ private:
     void btnTestCallbackRandom(cocos2d::Ref* pSender);
     void btnTestCallbackFix(cocos2d::Ref* pSender);
 };
+
 #endif /* GraphicsLayer05_h */
