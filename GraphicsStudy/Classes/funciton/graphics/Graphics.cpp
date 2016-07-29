@@ -59,7 +59,16 @@ void Graphics::drawPolygon(Vec2 arrPoints[], int arrLen)
     m_pCanvas->drawPoly(arrPoints, arrLen, true, m_lineColor);
 }
 
-
+void Graphics::drawPolygon(Vec2 arrPoints[], int arrLen, const Vec2& centerPt)
+{
+    Vec2* pArr = new Vec2[arrLen];
+    for (int i=0; i<arrLen; ++i)
+    {
+        pArr[i] = arrPoints[i] + centerPt;
+    }
+    drawPolygon(pArr, arrLen);
+    delete []pArr;
+}
 
 
 

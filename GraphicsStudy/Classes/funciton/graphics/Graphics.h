@@ -32,6 +32,7 @@ public:
     void setPixel(const Vec2& position);
     
     void drawPolygon(Vec2 arrPoints[], int arrLen);
+    void drawPolygon(Vec2 arrPoints[], int arrLen, const Vec2& centerPt);
 private:
     void resetState();
 private:

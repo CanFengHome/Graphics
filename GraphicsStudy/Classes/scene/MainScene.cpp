@@ -32,6 +32,8 @@ void LayerMainDataList::initFunNames()
     m_arrFunName.push_back("05 距离加权反走样直线");
     m_arrFunName.push_back("06 多边形有效边表填充算法");
     m_arrFunName.push_back("07 二维基本几何变换算法");
+    m_arrFunName.push_back("08 Cohen-Sutherland直线裁剪算法");
+    
     
 }
 
@@ -65,6 +67,9 @@ void LayerMainDataList::clickFunIndex(ssize_t selIndex)
             break;
         case 7:
             pLyrTest = GraphicsLayer07::create();
+            break;
+        case 8:
+            pLyrTest = GraphicsLayer08::create();
             break;
         default:
             pLyrTest = nullptr;

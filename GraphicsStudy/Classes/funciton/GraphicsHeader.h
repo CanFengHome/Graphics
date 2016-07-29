@@ -25,6 +25,8 @@
 #include "GraphicsLayer06.h"
 // 07 二维基本几何变换算法
 #include "GraphicsLayer07.h"
+// 08 Cohen-Sutherland直线裁剪算法
+#include "GraphicsLayer08.h"
 
 
 #endif /* GraphicsHeader_h */
