@@ -19,6 +19,7 @@ void Graphics::resetState()
     m_pixelColor = Color4F::RED;
     m_bgColor = Color4F::GRAY;
     m_lineColor = Color4F::BLUE;
+    m_fPointSize = 1.0f;
 }
 
 void Graphics::clearAllGraphics()
@@ -38,7 +39,7 @@ void Graphics::setPixel(const Vec2& position)
 {
     if (m_pCanvas)
     {
-        m_pCanvas->drawPoint(position, 1, m_pixelColor);
+        m_pCanvas->drawPoint(position, m_fPointSize, m_pixelColor);
         CCLOG("draw pixel (%f, %f)", position.x, position.y);
     }
 }
@@ -52,6 +53,11 @@ DrawNode* Graphics::inistallCanvas(Node* pParentNode)
         pParentNode->addChild(m_pCanvas);
     }
     return m_pCanvas;
+}
+
+void Graphics::drawPolyline(Vec2 arrPoints[], int arrLen)
+{
+    m_pCanvas->drawPoly(arrPoints, arrLen, false, m_lineColor);
 }
 
 void Graphics::drawPolygon(Vec2 arrPoints[], int arrLen)

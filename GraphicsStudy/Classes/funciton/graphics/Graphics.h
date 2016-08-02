@@ -31,6 +31,8 @@ public:
     void setPixel(int x, int y);
     void setPixel(const Vec2& position);
     
+    void drawPolyline(Vec2 arrPoints[], int arrLen);
+    
     void drawPolygon(Vec2 arrPoints[], int arrLen);
     void drawPolygon(Vec2 arrPoints[], int arrLen, const Vec2& centerPt);
 private:
@@ -40,6 +42,7 @@ private:
     CC_SYNTHESIZE(Color4F, m_pixelColor, PixelColor);
     CC_SYNTHESIZE(Color4F, m_bgColor, BgColor)
     CC_SYNTHESIZE(Color4F, m_lineColor, LineColor);
+    CC_SYNTHESIZE(float, m_fPointSize, PointSize);
 };
 
 #endif /* Graphics_h */

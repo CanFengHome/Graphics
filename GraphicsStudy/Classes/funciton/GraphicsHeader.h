@@ -27,6 +27,10 @@
 #include "GraphicsLayer07.h"
 // 08 Cohen-Sutherland直线裁剪算法
 #include "GraphicsLayer08.h"
+// 09 Bezier曲线算法
+#include "GraphicsLayer09.h"
+// 10 三次B样条曲线算法
+#include "GraphicsLayer10.h"
 
 
 #endif /* GraphicsHeader_h */
